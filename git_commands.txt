@@ -1,0 +1,15 @@
+git init --- initialize an empty git repo.
+
+git add . --- add all new files to repo.
+
+git add file_name --- add a specific file to git
+
+git status --- see the changes
+
+git commit -a -m 'message ...' --- commit changes
+
+git commit -m 'message...' filename_01 file_name_02 --- commit selected files
+
+git pull --- load changes from server
+
+git push --- submit local changes
