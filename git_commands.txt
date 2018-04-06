@@ -59,6 +59,8 @@ git remote show remote_name --- show details of the remote
 
 git push origin master --- push local commits to the master
 
+git pull origin master --- pull changes from server
+
 
 
 
