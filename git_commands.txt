@@ -13,3 +13,55 @@ git commit -m 'message...' filename_01 file_name_02 --- commit selected files
 git pull --- load changes from server
 
 git push --- submit local changes
+
+git log --- show all commits
+
+git diff --- show the changes
+
+git show commit_no --- show particular commit details
+
+git log file_name --- all details log of the file
+
+git checkout commit_no filename --- change a file to the mentioned commit
+
+git checkout filename --- revert changes to that file
+
+git checkout master -f --- change a file to its previous state
+
+git reset soft commit_no --- make the head dirty again and allow to edit if any change needed.
+
+git reset hard commit_no --- reset the changes to the commit
+
+git reflog --- show all things which are done to that
+git reset Head@{any_number} --- unstage changes after that
+git reset hard ---will rest to the required commit
+
+git commit --amend --- append new changes with the last commit
+
+git stash --- temporarily clean the working directory and save the changes to a temporary zone.
+git stash pop --- re apply the stashed items to the head
+
+git stash list -- total number of stash
+
+git stash pop stash@{stash_number} --- apply specific stash
+
+git stash clear --- delete all stashes
+
+git clean -f -n --- clean untracked file (try run)
+
+git clean -f --- clean untracked file
+
+git remote add origin https://github.com/tsfehshan/git_commands --- add remote (needs to create a remote)
+
+git remote show --- show remotes
+
+git remote show remote_name --- show details of the remote
+
+git push origin master --- push local commits to the master
+
+
+
+
+
+
+
